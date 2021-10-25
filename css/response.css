@@ -1,0 +1,181 @@
+@media screen and (max-width: 1300px) {
+  /* header */
+  /* main */
+  /* footer */
+}
+
+@media screen and (max-width: 1170px) {
+  .unlimited_wrap .inner {
+    padding: 0 30px;
+  }
+  .unlimited_wrap .unlimited_book_list ul {
+    flex-wrap: wrap;
+  }
+  .unlimited_wrap .unlimited_book_list ul li {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 30px;
+  }
+  .books_wrap .inner {
+    padding: 0;
+  }
+  .reading_wrap .sub_img_wrap img.holic {
+    left: 0%;
+  }
+  .reading_wrap .sub_img_wrap img.mania {
+    left: 9%;
+  }
+  .reading_wrap .sub_img_wrap img.pick {
+    right: 9%;
+  }
+  .reading_wrap .sub_img_wrap img.hidden {
+    right: 0%;
+  }
+  .reading_wrap .main_img_wrap {
+    z-index: 2;
+    margin-top: 30px;
+  }
+  .price_wrap .price_detail {
+    flex-direction: column;
+    align-items: center;
+  }
+  .price_wrap .price_detail .refund_list {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .price_wrap .price_detail .price_list li:last-of-type {
+    margin-right: 0;
+  }
+  .footer {
+    padding: 30px 90px 50px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .content_wrap .content_container {
+    padding: 74px 25px 180px;
+  }
+  .qna_wrap {
+    padding: 90px 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .review_wrap {
+    background-size: cover;
+  }
+  .review_wrap .inner {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_tit {
+    font-size: 40px;
+  }
+  .main_txt {
+    font-size: 20px;
+  }
+  .benefit_wrap .benefit_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .unlimited_wrap .unlimited_book_list ul li {
+    width: 33.3333%;
+  }
+  .price_wrap .price_detail .price_list li {
+    flex-shrink: 0;
+  }
+  .content_wrap .tab_list {
+    padding: 0 30px;
+  }
+  .content_wrap .content_container .content_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content_wrap .content_container .content_box .txt_wrap {
+    width: 100%;
+    align-items: center;
+  }
+  .content_wrap .content_box .audio_sub_txt,
+  .content_wrap .content_box .viewer_sub_txt, 
+  .content_wrap .content_box .today_sub_txt {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 20px;
+    word-break: keep-all;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .main_tit {
+    font-size: 35px;
+  }
+  .main_txt {
+    font-size: 18px;
+  }
+  .main_visu .txt_wrap h2 {
+    font-size: 40px;
+    word-break: keep-all;
+  }
+  .reading_wrap .main_img_wrap .desc {
+    min-width: 300px;
+  }
+  .reading_wrap .main_img_wrap img {
+    max-width: 300px;
+  }
+  .reading_wrap .sub_img_wrap img {
+    display: none;
+  }
+  .price_wrap .price_detail .price_list {
+    flex-direction: column;
+  }
+  .price_wrap .price_detail .price_list li {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .price_wrap .price_detail .refund_list {
+    margin-top: 0;
+  }
+  .review_wrap video {
+    max-width: 300px;
+  }
+  .qna_wrap {
+    padding: 90px 0;
+  }
+  .qna_wrap ul li .question {
+    font-size: 16px;
+  }
+  .footer {
+    padding: 30px 0 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main_tit {
+    font-size: 32px;
+    word-break: keep-all;
+  }
+  .main_txt {
+    font-size: 16px;
+    word-break: keep-all;
+  }
+  .unlimited_wrap .unlimited_book_list ul li {
+    width: 50%;
+  }
+  .qna_wrap ul li {
+    word-break: keep-all;
+  }
+  .qna_wrap ul li .question {
+    padding: 20px;
+  }
+  .qna_wrap ul li .question::after {
+    width: 20px;
+    height: 20px;
+    right: 20px;
+  }
+}
